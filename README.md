@@ -15,8 +15,9 @@ Make sure you have installed:
 ### Setup
 
 Go to root folder of the project
+1)  docker-compose up
 
-1) via Docker:
+2) via Docker:
 
 `docker build -t test-task:latest .`
 
@@ -24,25 +25,6 @@ Go to root folder of the project
 
 and the server should be accessed from `http://127.0.0.1:5000/`
 
-2) via Python's virtual environment, run the following commands:
-
-`apt-get update -y`
-
- `apt-get install -y python3 python3-dev python3-pip wget`
- 
- `apt-get remove -y python-pip python3-pip`
- 
- `wget https://bootstrap.pypa.io/get-pip.py`
- 
- `python3 get-pip.py`
- 
- `python3 -m venv env`
- 
- `source env/bin/activate`
- 
- ` pip3 install -r requirements.txt `
- 
- and run `src/app.py` script
  
  ___________________________________
  

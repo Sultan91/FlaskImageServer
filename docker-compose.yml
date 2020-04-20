@@ -1,0 +1,10 @@
+# docker-compose.yml
+version: '3'
+services:
+  flask:
+    image: webapp-flask
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "./:/app"
