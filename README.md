@@ -1,7 +1,7 @@
 # Web server with image uploading functionality using Flask
-Home path: `http://127.0.0.1:5000/` 
+Home path: `http://0.0.0.0:5000/` 
 
-To upload image submit post request on `http://127.0.0.1:5000/upload`
+To upload image submit post request on `http://0.0.0.0:5000/upload`
 
 
 [Instructions for Ubuntu]
